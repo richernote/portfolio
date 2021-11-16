@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang='en'>
 <head>
@@ -138,4 +139,146 @@
 
     <script src='script.js'> </script>
 </body>
+=======
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' type='text/css' href='style.css' />  
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.7/css/all.css'>
+    <title>Portfolio</title>
+</head>
+
+<div id='loading'>
+        <div id='loader'></div>
+    </div>
+
+<body id='body'>
+    
+    
+
+    <section class='hero'>
+        <nav id='navbar'>
+            <img class='logo' src='./images/rick.jpeg' alt='My memoji'>
+            <ul id='nav-list'>
+                <li>
+                    <a href='#about-me'>About Me</a>
+                </li>
+                <li>
+                    <a href='#projects-header'>Projects</a>
+                </li>
+                <li>
+                    <a href='https://hashnode.com/@Richernote' target='_blank'>Blog</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class='hero-area'>
+            <div class='hero-text'>
+                <h1>Richard Nolet</h1>
+                <p>Full Stack Developer</p>
+                <p class='contact'><a href='#contact'>Get in touch with me!</a><i class='fas fa-paper-plane'></i></p>
+            </div>
+        
+
+            <div class='socials'>
+                <div id='githublink' class='social-icon'>
+                    <a id='profile-link' href='https://github.com/richernote' target='_blank'>
+                        <i class='fab fa-github'></i>
+                    </a>
+                </div>
+
+                <div id='linkdinlink' class='social-icon'>
+                    <a href='https://www.linkedin.com/in/richardnolet/' target='_blank'>
+                        <i class='fab fa-linkedin'></i>
+                    </a>
+                </div>
+
+                <div id='twitter' class='social-icon'>
+                    <a href='https://twitter.com/richernote' target='_blank'>
+                        <i class='fab fa-twitter-square'></i>   
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id='about-me'>
+        <h2>About me</h2>
+        <p>
+            My name is Richard Nolet and I'm a Web Developer from Vancouver, Canada. I specialise
+            in HTML, CSS, JavaScript and Python! I've compelted Harvad's CS50X and received my 
+            certificate of completion for FreeCodeCamp's Responsive Web Design. I'm always on the
+            hunt for new challenges and the latest news in the tech industry. I'm currently learning about Google
+            Cloud Platform and persuing the Cloud Engineer Associate certificate. My ultimate goal is to enter
+            a career as a Cloud Data Engineer.
+        </p>
+    </section>
+
+    <hr>
+
+    <section class='sub-section'>
+
+        <h2 id='projects-header'>Projects</h2>
+        <div id='projects'>
+
+            <figure class='project-tile'>
+                <img id='survey'>
+                <a class='project-title' href='https://codepen.io/richernote/pen/gOWmMKv' target='_blank'>Survey</a>
+            </figure>
+
+            <figure class='project-tile'>
+                <img id='tribute'>
+                <a class='project-title' href='https://codepen.io/richernote/pen/xxrbQpX' target='_blank'>Triubute Page</a>
+            </figure>
+            
+            <figure class='project-tile'>
+                <img id='product-landing-page'>
+                <a class='project-title' href='https://codepen.io/richernote/pen/ZEyLbpe' target='_blank'>Product Landing Page</a>
+            </figure>
+
+            <figure class='project-tile'>
+                <img id='technical-documentation'>
+                <a class='project-title' href='https://codepen.io/richernote/pen/GREOBWZ' target='_blank'>Technical Documentation</a>
+            </figure>
+        </div>
+    </section>
+
+    <footer>
+        <form id='contact' action='https://formsubmit.co/your@email.com' method='POST'>
+
+            <fieldset>
+                <legend>Lets get in touch</legend>
+                <div>
+                    <label for='name' class='form-label'>Name:</label>
+                    <div>
+                        <input type='text' name='name' class='form-input' placeholder='First Last' required>
+                    </div>
+                </div>
+                
+                <div>
+                    <label for='email' class='form-label'>Email:</label>
+                    <div>
+                        <input type='email' name='email' class='form-input' placeholder='example@email.com' required>
+                    </div>
+                </div>
+
+                <div>
+                    <label for='message' class='form-label'>Message:</label>
+                    <div>
+                        <textarea name='message' rows='10' maxlength='3000' class='form-input' placeholder='Text here' required></textarea>
+                    </div>
+                </div>
+                <button type='submit' class='subbut'>Send</button>
+        </fieldset>    
+        </form>
+        
+    </footer>
+
+
+    <script src='script.js'> </script>
+</body>
+>>>>>>> 45d9292b03bf1f5a1289a2cb7e09b11742f78360
 </html>
