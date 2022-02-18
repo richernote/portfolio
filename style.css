@@ -293,7 +293,7 @@ content: url(https://assets.codepen.io/3155923/internal/screenshots/pens/GREOBWZ
 footer {
     height: 500px;
     display: flex;
-    margin: 10px;
+    padding-top: 80px;
     justify-content: center;
 }
 
@@ -349,6 +349,7 @@ footer {
     font-size: 18px;
     font-weight: 600;
     border-radius: 0.5rem;
+    border: none;
     padding: 0.5rem;
     margin: auto;
     width: 80%;
